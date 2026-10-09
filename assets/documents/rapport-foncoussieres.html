@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verger de Foncoussières — Rapport de stage 1A | Alexis Trémouille</title>
+  <meta name="description" content="Diagnostic systémique du Verger de Foncoussières (Rabastens, Tarn) et étude de reconversion d'une parcelle d'abricotiers : rapport de stage de première année, Institut Agro Montpellier.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body id="top">
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Alexis<span>.</span>Trémouille</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+      <nav class="nav-links">
+        <a href="#mission">Mission</a>
+        <a href="#contexte">Contexte</a>
+        <a href="#problematique">Problématique</a>
+        <a href="#missions">Missions</a>
+        <a href="#resultats">Résultats</a>
+        <a href="../../index.html">← Portfolio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse"></span> RAPPORT DE STAGE 1A · INSTITUT AGRO MONTPELLIER</p>
+          <h1>Verger de <span>Foncoussières</span></h1>
+          <p class="hero-text">Diagnostic systémique d'une exploitation arboricole du Tarn et étude de reconversion d'une parcelle d'abricotiers en déclin : six semaines de terrain, de cartographie et d'aide multicritère à la décision.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="Rapport_1A_Tremouille_Alexis.pdf" target="_blank" rel="noopener">Lire le rapport (PDF) <span>↗</span></a>
+            <a class="btn btn-secondary" href="#resultats">Voir les résultats <span>↓</span></a>
+          </div>
+          <div class="hero-links">
+            <a href="#mission">La mission</a>
+            <a href="#missions">Les missions</a>
+            <a href="https://www.vergerdefoncoussieres.com" target="_blank" rel="noopener">Site du verger ↗</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <span class="orbit orbit-one"></span>
+          <span class="orbit orbit-two"></span>
+          <div class="hero-card-center">
+            <span class="hero-symbol">✦</span>
+            <strong>FONCOUSSIÈRES</strong>
+            <span>Rabastens · Tarn</span>
+          </div>
+          <span class="floating-tag tag-one">11,17 ha cultivés</span>
+          <span class="floating-tag tag-two">QGIS</span>
+          <span class="floating-tag tag-three">DEXi</span>
+          <span class="floating-tag tag-four">Grenadier</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#verger" aria-label="Descendre">↓</a>
+    </section>
+
+    <!-- LE VERGER EN IMAGES -->
+    <section class="section" id="verger">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">LE TERRAIN D'ÉTUDE</p>
+          <h2>Le verger en images</h2>
+          <p>Photographies © Verger de Foncoussières, publiées via Tourisme Occitanie.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-image image-agri">
+              <span>VUE DU CIEL</span>
+              <img src="../images/vue-du-ciel.jpg" alt="Vue aérienne du Verger de Foncoussières à Rabastens" width="100%" loading="lazy">
+            </div>
+            <div class="project-body">
+              <p class="project-meta">EXPLOITATION · RABASTENS (TARN)</p>
+              <h3>Une exploitation familiale en circuits courts</h3>
+              <p>Situé dans la basse plaine alluviale du Tarn, le verger cultive 11,17 ha et produit environ 350 tonnes de pommes par an, dont près des trois quarts en agriculture biologique. L'essentiel est vendu en direct : magasin fermier, marchés et cueillette libre.</p>
+              <div class="tags"><span>Pommes</span><span>Agriculture biologique</span><span>Magasin fermier</span><span>Cueillette</span></div>
+              <a class="project-link" href="https://www.vergerdefoncoussieres.com" target="_blank" rel="noopener">Découvrir le verger →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image image-gis">
+              <span>POMMES BIO</span>
+              <img src="../images/pommes_bio.jpg" alt="Pommes bio du Verger de Foncoussières" width="100%" loading="lazy">
+            </div>
+            <div class="project-body">
+              <p class="project-meta">L'ATELIER PRINCIPAL</p>
+              <h3>La pomme, cœur du système</h3>
+              <p>Les pommes alimentent la vente directe et, via des prestataires locaux, les jus, pétillants et compotes du magasin.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image image-other">
+              <span>ABRICOTS</span>
+              <img src="../images/abricots.jpg" alt="Abricots du Verger de Foncoussières" width="100%" loading="lazy">
+            </div>
+            <div class="project-body">
+              <p class="project-meta">LA PARCELLE EN QUESTION</p>
+              <h3>0,47 ha d'abricotiers en échec</h3>
+              <p>Plantés entre 2006 et 2011, ces abricotiers ne produisent presque rien : c'est le point de départ de l'étude de reconversion.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSION -->
+    <section class="section section-alt" id="mission">
+      <div class="container about-grid">
+        <div class="section-heading">
+          <p class="section-kicker">LA MISSION</p>
+          <h2>Un stage d'immersion et d'analyse</h2>
+        </div>
+        <div class="about-content">
+          <p class="lead">Analyser le fonctionnement complet du Verger de Foncoussières, puis concevoir et évaluer un projet de décision pour remplacer sa parcelle d'abricotiers improductive.</p>
+          <p>Réalisé en première année de formation d'ingénieur agronome, ce stage s'est déroulé en deux temps : deux semaines en octobre 2025 (récolte et stockage des pommes), puis quatre semaines du 27 juillet au 21 août 2026 (entretien, suivi sanitaire et vente estivale). Il s'appuie sur des observations de terrain, des entretiens semi-directifs avec l'exploitant, le traitement de séries météo, une étude cartographique sous QGIS et l'analyse de données technico-économiques et comptables.</p>
+          <div class="stats">
+            <div class="stat"><strong>6</strong><span>semaines de stage</span></div>
+            <div class="stat"><strong>8</strong><span>cultures comparées</span></div>
+            <div class="stat"><strong>0,47 ha</strong><span>parcelle étudiée</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTEXTE -->
+    <section class="section" id="contexte">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="section-kicker">LE CONTEXTE</p>
+          <h2>Une exploitation à deux visages</h2>
+          <p>Un outil commercial performant, adossé à un atelier de production exposé aux aléas du milieu.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">◐</div>
+            <h3>Milieu</h3>
+            <ul>
+              <li>Alluvions du Tarn, sol à dominante argileuse</li>
+              <li>Climat océanique dégradé, 701,8 mm/an</li>
+              <li>43,6 jours de gel par an (1991-2020)</li>
+              <li>Irrigation goutte-à-goutte depuis la nappe</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">❖</div>
+            <h3>Production</h3>
+            <ul>
+              <li>11,17 ha cultivés, 13,74 ha de SAU</li>
+              <li>≈ 350 t de pommes par an</li>
+              <li>Environ 75 % des surfaces en AB</li>
+              <li>Cerises, pêches, prunes, tomates…</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">⇄</div>
+            <h3>Organisation</h3>
+            <ul>
+              <li>GAEC pour la production agricole</li>
+              <li>SARL pour le magasin fermier</li>
+              <li>13,5 UTA, travaux réalisés en interne</li>
+              <li>Forte saisonnalité du travail</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">€</div>
+            <h3>Économie</h3>
+            <ul>
+              <li>Vente directe, prix fixés par l'exploitant</li>
+              <li>Transformation sous-traitée localement</li>
+              <li>Résultat net du GAEC en baisse (2023-2025)</li>
+              <li>Trésorerie devenue très tendue</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLÉMATIQUE -->
+    <section class="section section-alt" id="problematique">
+      <div class="container about-grid">
+        <div class="section-heading">
+          <p class="section-kicker">LA PROBLÉMATIQUE</p>
+          <h2>Quelle espèce pour remplacer l'abricotier ?</h2>
+        </div>
+        <div class="about-content">
+          <p class="lead">Comment assurer la durabilité technico-économique du Verger de Foncoussières face au gel, au sol argileux, à la disponibilité en eau et aux tensions de travail ?</p>
+          <p>Dans cette perspective, chaque demi-hectare doit contribuer positivement à la marge brute. La parcelle d'abricotiers de 0,47 ha, quasi improductive, constitue un point de fuite économique : il s'agit de choisir l'espèce arboricole capable de la valoriser durablement, tout en restant compatible avec les équipements, le calendrier de travail et la vente directe de l'exploitation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSIONS -->
+    <section class="section section-dark" id="missions">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">PRINCIPALES MISSIONS</p>
+          <h2>De l'analyse de l'exploitation au projet de reconversion</h2>
+          <p>Le rapport suit deux parties complémentaires : un diagnostic, puis un projet de décision.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <p class="timeline-date">Partie 1</p>
+            <span class="timeline-marker"></span>
+            <div class="timeline-content">
+              <p class="timeline-type">DIAGNOSTIC SYSTÉMIQUE</p>
+              <h3>Comprendre le fonctionnement du verger</h3>
+              <p>Historique, sol, climat (station de Lavaur, normales 1991-2020), eau, structures GAEC et SARL, ateliers, itinéraire technique du pommier, calendrier de travail, analyse financière et cartographie sous QGIS.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">Partie 2 · 2.1</p>
+            <span class="timeline-marker"></span>
+            <div class="timeline-content">
+              <p class="timeline-type">DIAGNOSTIC CLINIQUE</p>
+              <h3>Expliquer l'échec de l'abricotier</h3>
+              <p>Confrontation d'hypothèses et d'indices de terrain : asphyxie racinaire, gel printanier, moniliose et incompatibilité de greffage.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">Partie 2 · 2.2-2.3</p>
+            <span class="timeline-marker"></span>
+            <div class="timeline-content">
+              <p class="timeline-type">CADRAGE DES CRITÈRES</p>
+              <h3>Traduire les attentes de l'exploitant</h3>
+              <p>Construction d'une grille de 7 critères et 20 sous-critères mesurables, puis présélection de 8 cultures candidates, comparées à un scénario témoin de maintien des abricotiers.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">Partie 2 · 2.4</p>
+            <span class="timeline-marker"></span>
+            <div class="timeline-content">
+              <p class="timeline-type">AIDE À LA DÉCISION</p>
+              <h3>Analyse multicritère sous DEXi</h3>
+              <p>Structuration d'un arbre de décision, classement des cultures et analyse de sensibilité pour départager les finalistes.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">Partie 2 · 2.5</p>
+            <span class="timeline-marker"></span>
+            <div class="timeline-content">
+              <p class="timeline-type">MODÉLISATION</p>
+              <h3>Chiffrer la plantation du grenadier</h3>
+              <p>Estimation des investissements, évaluation économique selon trois modes de commercialisation et calendrier de transition sur la période 2026-2032.</p>
+              <a class="text-link" href="Rapport_1A_Tremouille_Alexis.pdf" target="_blank" rel="noopener">Consulter le détail dans le rapport →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RÉSULTATS -->
+    <section class="section" id="resultats">
+      <div class="container education-grid">
+        <div class="section-heading">
+          <p class="section-kicker">RÉSULTATS OBTENUS</p>
+          <h2>Le grenadier, une piste de diversification crédible</h2>
+          <p>Un choix argumenté, chiffré et compatible avec les capacités de vente directe du verger.</p>
+        </div>
+        <div class="education-list">
+          <article class="education-item">
+            <p class="education-year">Diagnostic</p>
+            <div>
+              <p class="education-type">PARTIE 1</p>
+              <h3>Un outil commercial solide, une production fragile</h3>
+              <p>La SARL est performante et bien ancrée localement ; le GAEC subit les aléas climatiques, des charges de personnel élevées et une dégradation financière entre 2023 et 2025.</p>
+            </div>
+          </article>
+          <article class="education-item">
+            <p class="education-year">Cause</p>
+            <div>
+              <p class="education-type">PARTIE 2</p>
+              <h3>Sol asphyxiant et gelées sur floraison précoce</h3>
+              <p>L'échec de l'abricotier tient surtout à la combinaison d'un sol argileux engorgé l'hiver et de gelées de mars-avril ; tout remplaçant doit tenir compte de ces deux contraintes.</p>
+            </div>
+          </article>
+          <article class="education-item">
+            <p class="education-year">Choix</p>
+            <div>
+              <p class="education-type">ANALYSE DEXI</p>
+              <h3>Seules 3 cultures atteignent le niveau intermédiaire</h3>
+              <p>Pommier, prunier et grenadier se détachent. L'analyse de sensibilité retient le grenadier : floraison tardive, faibles besoins en traitements et fort potentiel en vente directe.</p>
+            </div>
+          </article>
+          <article class="education-item">
+            <p class="education-year">Chiffrage</p>
+            <div>
+              <p class="education-type">INVESTISSEMENT</p>
+              <h3>4 277 à 4 763 € HT pour 0,47 ha</h3>
+              <p>Arrachage de 783 abricotiers et plantation de 376 grenadiers, avec réutilisation du parc de matériel existant. Un dispositif FranceAgriMer pourrait financer 20 % de certaines dépenses, sous réserve d'éligibilité des cultivars.</p>
+            </div>
+          </article>
+          <article class="education-item">
+            <p class="education-year">Rentabilité</p>
+            <div>
+              <p class="education-type">TROIS SCÉNARIOS</p>
+              <h3>Tout dépend du mode de commercialisation</h3>
+              <p>Vente en frais à une coopérative : rentabilité cumulée après 10 ans. Vente à un grossiste : non rentable sur 20 ans. Transformation en jus et vente directe : retour sur investissement dès la 5ᵉ ou 6ᵉ année de production, si les coûts de transformation sont maîtrisés.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LIEN VERS LE PDF -->
+  <section class="contact-section" id="rapport">
+    <div class="container contact-inner">
+      <div>
+        <p class="section-kicker">RAPPORT COMPLET</p>
+        <h2>Lire le rapport <span>en intégralité</span></h2>
+        <div class="contact-socials">
+          <a href="../../index.html">← Retour au portfolio</a>
+          <a href="#top">Haut de page ↑</a>
+        </div>
+      </div>
+      <div>
+        <a class="btn btn-primary" href="Rapport_1A_Tremouille_Alexis.pdf" target="_blank" rel="noopener">Ouvrir le PDF (131 pages) <span>↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Alexis Trémouille — Rapport de stage 1A, Institut Agro Montpellier</span>
+      <a href="#top">Retour en haut</a>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.nav-toggle').addEventListener('click', function () {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
